@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to bottom, #000000, #000000); /* Adjust color codes as needed */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    font-family: Arial, sans-serif; /* Optional: Choose a suitable font */
+    color: #fff; /* Set text color to white for better contrast */
+  }
+.whole {
+    border: 2px solid #fff; /* Add a border around the whole content */
+    border-radius: 10px; /* Add rounded corners to the border */
+    overflow: hidden; /* Clear any floated content within the "whole" div */
+  }
+  
+  #animeSelection { /* กรอบใหญ่สุด */
+    background: linear-gradient(to bottom, #ff0000, #000000);
+    text-align: center; /* Center text within the div */
+    margin: 50px auto; /* Center the box vertically and horizontally */
+    padding: 20px; /* Add padding for better aesthetics */
+    max-width: 400px; /* Set a maximum width for the box */
+    border-radius: 30px; /* Add rounded corners to the box */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Add a subtle box shadow */
+  }
+  
+  
+  #animeSelect {
+    width: 200px; /* Adjust the width as needed */
+    margin-top: 10px; /* Add margin at the top of the dropdown for spacing */
+    background: #fff; /* Background color for the box */
+    padding: 10px; /* Add padding for better aesthetics */
+    border-radius: 5px; /* Add rounded corners to the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  button {
+    margin-top: 10px; /* Add margin at the top of the button for spacing */
+    background: #fff; /* Background color for the box */
+    padding: 10px; /* Add padding for better aesthetics */
+    border: 1px solid #ccc; /* Add a border for the button */
+    border-radius: 5px; /* Add rounded corners to the button */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  
+  #imageContainer {
+    text-align: center; /* Center the content within the div */
+  }
+  
+  #imageContainer img {
+    display: block; /* Make images block elements */
+    margin: 10px auto; /* Add margin and center the images horizontally */
+  }
+  
+  .characterImage {
+    width: 150px;
+    height: 225px;
+    margin: 5px;
+  }
+  
